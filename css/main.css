@@ -1,0 +1,41 @@
+.container {
+    max-width: 1170px;
+    font-family: sans-serif;
+    background: #143C4D;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1000px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background: #3789B2;
+}
+
+.box.box-15 {
+    background: #E9446E;
+}
+
+.box.box-3 {
+    background: #6BD7A2;
+}
+
+.box.box-5 {
+    background: #FAD165;
+}
